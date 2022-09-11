@@ -8,43 +8,43 @@ Endpoints principales (en orden de funcionamiento):
 
 Es necesario que exista un cliente para crear una reservación.
 
-/api/client 
+```/api/client ```
 Retorna una lista de los clientes existentes
 Permite crear un cliente
 
-/api/client/<id>
+```/api/client/<id>```
 Retorna un cliente en especifico.
 Actualiza un cliente / Elimina un cliente
   
 ## Métodos de pago
   
-/api/payment
+```/api/payment```
 Retorna la lista de metodos de pago actuales [GET]
 Permite crear un método de pago [POST]
   
-/api/payment/<id>
+```/api/payment/<id>```
 Retorna un metodo de pago en especifico. [GET]
 Actualiza un metodo de pago [PATCH,PUT] / Elimina un metodo de pago [DELETE]
   
-Decidí trabajar los metodos de pago y los status en tablas separadas, para que sea sencillo el crear nuevos datos.
+> Decidí trabajar los metodos de pago y los status en tablas separadas, para que sea sencillo el crear nuevos datos.
  
 ## Status
 
-/api/status/
+```/api/status/```
 Retorna la lista de posibles status de reservación [GET]
 Permite crear un status [POST]
 
-/api/status/<id>
+```/api/status/<id>```
 Retorna un status en especifico. [GET]
 Actualiza un status [PATCH,PUT] / Elimina un status [DELETE]
   
 ## Reservaciones
   
-/api/reservation/
+```/api/reservation/```
 Retorna la lista de reservaciones [GET]
 Permite crear una nueva reservacion [POST]
   
-/api/reservation/<id>
+```/api/reservation/<id>```
 Retorna una reservación en especifico. [GET]
 Actualiza una reservación [PATCH,PUT] / Elimina una reservación [DELETE]
   

@@ -9,12 +9,12 @@ Endpoints principales (en orden de funcionamiento):
 Es necesario que exista un cliente para crear una reservación.
 
 ```/api/client ```
-Retorna una lista de los clientes existentes
-Permite crear un cliente
+Retorna una lista de los clientes existentes [GET]  
+Permite crear un cliente [POST] 
 
 ```/api/client/<id>```
-Retorna un cliente en especifico.
-Actualiza un cliente / Elimina un cliente
+Retorna un cliente en especifico. [GET] 
+Actualiza un cliente [PATCH, PUT] / Elimina un cliente [DELETE] 
   
 ## Métodos de pago
   

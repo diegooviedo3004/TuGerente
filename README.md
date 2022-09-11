@@ -19,11 +19,11 @@ Actualiza un cliente / Elimina un cliente
 ## Métodos de pago
   
 ```/api/payment```
-Retorna la lista de metodos de pago actuales [GET]
+Retorna la lista de metodos de pago actuales [GET]  
 Permite crear un método de pago [POST]
   
 ```/api/payment/<id>```
-Retorna un metodo de pago en especifico. [GET]
+Retorna un metodo de pago en especifico. [GET]  
 Actualiza un metodo de pago [PATCH,PUT] / Elimina un metodo de pago [DELETE]
   
 > Decidí trabajar los metodos de pago y los status en tablas separadas, para que sea sencillo el crear nuevos datos.
@@ -31,21 +31,21 @@ Actualiza un metodo de pago [PATCH,PUT] / Elimina un metodo de pago [DELETE]
 ## Status
 
 ```/api/status/```
-Retorna la lista de posibles status de reservación [GET]
+Retorna la lista de posibles status de reservación [GET]  
 Permite crear un status [POST]
 
 ```/api/status/<id>```
-Retorna un status en especifico. [GET]
+Retorna un status en especifico. [GET]  
 Actualiza un status [PATCH,PUT] / Elimina un status [DELETE]
   
 ## Reservaciones
   
 ```/api/reservation/```
-Retorna la lista de reservaciones [GET]
+Retorna la lista de reservaciones [GET]  
 Permite crear una nueva reservacion [POST]
   
 ```/api/reservation/<id>```
-Retorna una reservación en especifico. [GET]
+Retorna una reservación en especifico. [GET]  
 Actualiza una reservación [PATCH,PUT] / Elimina una reservación [DELETE]
   
 
